@@ -1,8 +1,6 @@
-# 🚀 AngularLoan - Plataforma de Préstamos Simulada
+# 🚀 LendWise - Plataforma de Préstamos Simulada
 
 **AngularLoan** es una aplicación web desarrollada en Angular que permite a los usuarios registrarse, solicitar préstamos, visualizarlos y simular su pago. Todo esto usando tecnologías modernas como Angular Material, JSON Server y arquitectura modular con *lazy loading*.
-
-![Angular Logo](https://angular.io/assets/images/logos/angular/angular.svg)
 
 ---
 
