@@ -1,27 +1,50 @@
-# LendWise
+# 🚀 AngularLoan - Plataforma de Préstamos Simulada
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+**AngularLoan** es una aplicación web desarrollada en Angular que permite a los usuarios registrarse, solicitar préstamos, visualizarlos y simular su pago. Todo esto usando tecnologías modernas como Angular Material, JSON Server y arquitectura modular con *lazy loading*.
 
-## Development server
+![Angular Logo](https://angular.io/assets/images/logos/angular/angular.svg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🎯 Características Principales
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 🧾 Registro de usuarios
+- 💰 Solicitud de préstamos con selección de monto
+- 🔐 Aprobación automática simulada
+- 📊 Panel de Listado para los prestamos pendientes
+- 💸 Simulación de pagos
+- 🌐 Interfaz responsive con Angular Material
+- 🚀 Arquitectura optimizada con *lazy loading*
+- 🛠️ Backend simulado con JSON Server
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🖼️ Vista Previa
 
-## Running unit tests
+![image](https://github.com/user-attachments/assets/307e2b3d-23a4-41bc-8ae5-25f528c2f89d)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://github.com/user-attachments/assets/497fbd0d-4007-4ce6-8717-10067dfaf8ce)
 
-## Running end-to-end tests
+![image](https://github.com/user-attachments/assets/15a8ccbf-b130-4ddb-8336-4915e0c0f8f3)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🛠️ Tecnologías Usadas
+
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [JSON Server](https://github.com/typicode/json-server)
+- RxJS, TypeScript, Css, Bootstrap
+
+---
+
+## ⚙️ Instalación y Ejecución
+
+1. **Clona el repositorio**
+
+```bash
+https://github.com/joseph517/lendWise.git
+cd lendWise
+npm install
+ng serve
