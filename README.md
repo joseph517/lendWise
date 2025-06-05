@@ -34,15 +34,24 @@
 - [Angular Material](https://material.angular.io/)
 - [JSON Server](https://github.com/typicode/json-server)
 - RxJS, TypeScript, Css, Bootstrap
+- Angular CLI
+
 
 ---
 
 ## ⚙️ Instalación y Ejecución
 
-1. **Clona el repositorio**
-
 ```bash
-https://github.com/joseph517/lendWise.git
+# Clona el repositorio
+git clone - https://github.com/joseph517/lendWise.git
+
 cd lendWise
+
+# Instala dependencias
 npm install
+
+# Inicia JSON Server
+json-server --watch db.json --port 3000
+
+# Inicia la aplicación Angular
 ng serve
