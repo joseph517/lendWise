@@ -1,0 +1,22 @@
+<div class="container">
+  <mat-card class="loan-card">
+    <img src="../../../../assets/images/repayment-of-credit.png" alt="Credit" class="credit-image">
+    <h2>Solicitar crédito</h2>
+    <span class="mb-3 text-center">Complete el formulario para solicitar su credito bancario</span>
+
+    <form class="loan-form" #loanForm="ngForm">
+      <app-user-form [user]="user" (userFormEvent)="user = $event"></app-user-form>
+      <div class="loan-amount">
+        <app-input-between-range class="input-between-range" [(loanAmount)]="loanAmount"></app-input-between-range>
+        <div class="button-container">
+          <button mat-raised-button color="primary" (click)="applyForLoan()">Solicitar</button>
+        </div>
+      </div>
+      <div class="note-container">
+        <span class="note">
+          <strong>Nota:</strong> Su solicitud de créditos sera evaluada por nuestro nuestro sistema de evaluacion de credito. 
+        </span>
+      </div>
+    </form>
+  </mat-card>
+</div>

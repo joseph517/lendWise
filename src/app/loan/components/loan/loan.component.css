@@ -1,0 +1,81 @@
+mat-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+}
+
+mat-card h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3f51b5;
+}
+
+button[mat-raised-button] {
+  align-self: flex-start;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 80vh; */
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  max-width: 540px;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+}
+
+.loan-card{
+  box-shadow: none;
+}
+
+.loan-amount {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.input-between-range{
+  width: 100%;
+}
+
+.credit-image {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.note-container{
+  background-color: #BFDBFE;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.note{
+  font-size: 0.8rem;
+  color: #1E40AF;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .loan-amount {
+    flex-direction: row;
+  }
+  
+  .input-between-range{
+    width: auto;
+  }
+  
+}

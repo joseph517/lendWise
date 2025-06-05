@@ -1,0 +1,17 @@
+<form #userForm="ngForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre</mat-label>
+    <input matInput [(ngModel)]="user.name" name="name" required (ngModelChange)="onChange()"  />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Email</mat-label>
+    <input matInput type="email" [(ngModel)]="user.email" name="email" required (ngModelChange)="onChange()"  />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Cédula</mat-label>
+    <input matInput [(ngModel)]="user.dni" name="dni" required (ngModelChange)="onChange()"  />
+  </mat-form-field>
+</form>
+
