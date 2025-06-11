@@ -21,8 +21,8 @@ export class BankComponent implements OnInit {
   constructor(private bankService: BankService) {}
 
   ngOnInit() {
-    this.bankService.capital$.subscribe(value => {
-      this.capital = value;
+    this.bankService.bank$.subscribe((bank) => {
+      this.capital = bank.capital;
     });
   }
 }
